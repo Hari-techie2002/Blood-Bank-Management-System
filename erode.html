@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coimbatore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+    .btn-primary {
+            width: 200px;
+            height:55px;
+            border-radius: 30px;
+            border:none;
+        }
+        .loghead{
+            font-size:30px;
+            font-weight:600;
+            color:greenyellow !important;
+        }
+        .bg-light{
+            background: #333333;
+            background: -webkit-linear-gradient(to right, #dd1818, #333333);
+            background: linear-gradient(to right, #dd1818, #333333);
+            border-radius:30px;
+            border:none;
+        }
+        .bg-info{
+            background-color: #FBAB7E;
+            background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+        }
+        .terms{
+            color:orange;
+        }
+        span{
+            font-size:30px;
+            font-weight:600;
+            color:rgb(129, 179, 255) !important;
+        }
+    </style>
+</head>
+<body> 
+    <body class="bg-info">
+    
+        <div class="container border mt-5 p-2 col-xl-8 col-sm-8 col-10 bg-light">
+            <h3 class="text-center loghead text-primary p-2">Vanakkam <span>Erode</span> Makkaley !!!</h3><br>
+            <form action="bk-success.html" class="needs-validation" align="center">
+                
+                <div class="row">
+                    <div class="form-floating col mb-3 mt-3">
+        
+                        <input type="text" class="form-control" id="fname" placeholder="Enter your First Name" name="fname" required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                        <label for="fname" class="text-success formtit">First Name</label>
+                    </div>
+        
+                        <div class="form-floating col mb-3 mt-3">
+                            <input type="text" class="form-control" id="lname" placeholder="Enter your Last Name" name="lname" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                            <label for="lname" class="form-label text-success formtit">Last Name</label>
+                        </div>
+                    </div>
+
+            <div class="row">
+            <div class="form-floating col mb-3 mt-3">
+
+                <input type="text" class="form-control" id="email" placeholder="Enter your Email" name="email" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="email" class="text-success formtit">Email Id</label>
+            </div>
+
+                <div class="form-floating col mb-3 mt-3">
+                    <input type="text" class="form-control" id="mobno" placeholder="Enter Mobile Number" name="mobno" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                    <label for="mobno" class="form-label text-success formtit">Mobile Number</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-floating mb-3 col mt-3">
+                    <input type="number" class="form-control" id="age" placeholder="Enter your Age" name="age" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                    <label for="age" class="form-label text-success formtit">Age</label>
+                </div>
+                <div class="form-floating col mb-3 mt-3">
+                    <select class="form-select" id="sbg" name="sbg">
+                        <option value="0">Select</option>
+                        <option value="1">A<sup>+</sup></option>
+                        <option value="2">A<sup>-</sup></option>
+                        <option value="3">B<sup>+</sup></option>
+                        <option value="4">B<sup>-</sup></option>
+                        <option value="5">AB<sup>+</sup></option>
+                        <option value="6">AB<sup>-</sup></option>
+                        <option value="7">O<sup>+</sup></option>
+                        <option value="8">O<sup>-</sup></option>
+                    </select>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                    <label for="sbg" class="form-label text-success formtit">Select Blood Group</label>
+                </div>
+            </div>
+          <div class="row">
+            <div class="form-floating col mb-3 mt-3">
+                <select class="form-select" id="gender" name="gender">
+                    <option value="0">Select</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Transgender</option>
+                    <option value="4">Prefer not to say</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="gender" class="form-label text-success formtit">Gender</label>
+            </div>
+            <div class="form-floating col mb-3 mt-3">
+                <select class="form-select" id="ltbd" name="ltbd">
+                    <option value="01">Select</option>
+                    <option value="1">Not Donated ever</option>
+                    <option value="2">less than a month ago</option>
+                    <option value="3">1 month ago</option>
+                    <option value="4">3 months ago</option>
+                    <option value="5">6 months ago</option>
+                    <option value="6">1 year ago</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="ltbd" class="form-label text-success formtit">Last time Blood Donated</label>
+            </div>
+        </div>
+       
+        <div class="row">
+        <div class="form-floating col mb-3 mt-3">
+            <select class="form-select" id="area" name="area">
+                <option value="01">Select</option>
+                <option value="1">Area-1</option>
+                <option value="2">Area-2</option>
+                <option value="3">Area-3</option>
+                <option value="4">Area-4</option>
+                <option value="5">Area-5</option>
+                <option value="6">Area-6</option>
+                <option value="7">Area-7</option>
+                <option value="8">Area-8</option>
+                <option value="9">Area-9</option>
+                <option value="10">Area-10</option>
+                <option value="11">Area-11</option>
+                <option value="12">Area-12</option>
+                <option value="13">Area-13</option>  
+                <option value="14">Area-14</option>
+                <option value="15">Area-15</option>
+                <option value="16">Area-16</option>
+                <option value="17">Area-17</option>
+                <option value="18">Area-18</option>
+                <option value="19">Area-19</option>
+            </select>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+            <label for="area" class="form-label text-success formtit">Select Area</label>
+        </div>
+
+        <div class="form-floating col mb-3 mt-3">
+            <select class="form-select" id="dtype" name="dtype">
+                <option value="01">Select</option>
+                <option value="1">Whole Blood Donation</option>
+                <option value="2">Plasma Donation</option>
+                <option value="3">Platelet Donation</option>
+            </select>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+            <label for="dtype" class="form-label text-success formtit">Donation Type</label>
+        </div>
+    </div>
+        <div class="row">
+        <div class="form-floating col mb-3 mt-3">
+            <input type="date" class="form-control" id="date" placeholder="Enter your Date of Birth" name="date"
+                required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+            <label for="date" class="form-label text-success formtit">Date of Donation</label>
+        </div>
+
+        <div class="form-floating col mb-3 mt-3">
+            <select class="form-select" id="slt" name="slt">
+                <option value="01">Select</option>
+                <option value="1">9.00am - 10.00am</option>
+                <option value="2">10.00am-11.00am</option>
+                <option value="3">11.00am - 12.00pm</option>
+                <option value="4">12.00pm - 1.00pm</option>
+                <option value="5">1.00pm - 2.00pm</option>
+                <option value="6">2.00pm - 3.00pm</option>
+                <option value="7">3.00pm - 4.00pm</option>
+                <option value="8">4.00pm - 5.00pm</option>
+            </select>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+            <label for="slt" class="form-label text-success formtit">Choose Slot Timing</label>
+        </div>
+    </div><br><br>
+
+    <div class="form-check mb-3 ms-5" align="left">
+        <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+        <label class="form-check-label ms-3 text-white" for="myCheck">I agree to the <a href="#" class="terms">terms and
+                conditions</a></label>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Check this checkbox to continue.</div>
+    </div><br><br>
+    <div class="book" align="center">
+    <button type="submit" class="btn btn-primary text-center">Book</button>
+</div>
+    </form><br><br>
+
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

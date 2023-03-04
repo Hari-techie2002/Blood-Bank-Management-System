@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Request</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <style>
+        .btn-primary {
+            width: 180px;
+            height:50px;
+            border-radius: 30px;
+            background-color: green !important;
+            border:none;
+        }
+        .loghead{
+            font-size:30px;
+            font-weight:600;
+            color:orange !important;
+        }
+        .bg-light{
+            background: linear-gradient(to right, purple, rgb(1, 1, 173));
+            border-radius:30px;
+            border:none;
+        }
+        .bg-info{
+            background-color: #FBAB7E;
+            background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+        }
+        .terms{
+            color:orange;
+        }
+     </style>
+</head>
+<body class="bg-info">
+    
+    <div class="container border mt-5 p-2 col-xl-4 col-sm-8 col-10 bg-light">
+        <h3 class="text-center loghead text-primary">BLOOD REQUEST FORM</h3>
+        <form action="br-sub.html" class="needs-validation" align="center">
+            <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control" id="uname" placeholder="Enter your First Name" name="fname" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="fname" class="form-label text-success formtit">First Name</label>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control" id="lname" placeholder="Enter your Last Name" name="lname" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="lname" class="form-label text-success formtit">Last Name</label>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+                <input type="number" class="form-control" id="age" placeholder="Enter your Age" name="age" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="age" class="form-label text-success formtit">Age</label>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control" id="mobno" placeholder="Enter Mobile Number" name="mobno" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="mobno" class="form-label text-success formtit">Mobile Number</label>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+                <select class="form-select" id="sbg" name="sbg">
+                    <option value="0">Select</option>
+                    <option value="1">A<sup>+</sup></option>
+                    <option value="2">A<sup>-</sup></option>
+                    <option value="3">B<sup>+</sup></option>
+                    <option value="4">B<sup>-</sup></option>
+                    <option value="5">AB<sup>+</sup></option>
+                    <option value="6">AB<sup>-</sup></option>
+                    <option value="7">O<sup>+</sup></option>
+                    <option value="8">O<sup>-</sup></option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="sbg" class="form-label text-success formtit">Select Blood Group</label>
+            </div><br>
+
+            <div class="form-check mb-3" align="center">
+                <input class="form-check-input ms-5" type="checkbox" id="myCheck" name="remember" required>
+                <label class="form-check-label me-5 text-white" for="myCheck">I agree to the <a href="#" class="terms">terms and
+                        conditions</a></label>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Check this checkbox to continue.</div>
+            </div><br>
+            <button type="submit" class="btn btn-primary text-center">Submit</button><br><br>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

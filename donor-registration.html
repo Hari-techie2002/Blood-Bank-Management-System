@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        .btn-primary {
+            width: 180px;
+            height: 50px;
+            border-radius: 30px;
+            background-color: green !important;
+            border: none;
+        }
+
+        .loghead {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .bg-light {
+
+            background-color: #D9AFD9 !important;
+            border-radius: 30px;
+            border: none;
+        }
+
+        .bg-info {
+            background: #333333;
+            background: -webkit-linear-gradient(to right, #dd1818, #333333);
+            background: linear-gradient(to right, #dd1818, #333333);
+        }
+    </style>
+</head>
+
+<body class="bg-info">
+    <div class="container border mt-5 p-2 col-xl-5 col-sm-8 col-10 bg-light">
+        <h3 class="text-center loghead text-danger">DONOR REGISTRATION FORM</h3><br>
+        <form action="dr-sub.html" class="needs-validation" align="center">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="uname" placeholder="Enter your First Name" name="fname"
+                    required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="fname" class="form-label text-success formtit">First Name</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="lname" placeholder="Enter your Last Name" name="lname"
+                    required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="lname" class="form-label text-success formtit">Last Name</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="date" class="form-control" id="dob" placeholder="Enter your Date of Birth" name="dob"
+                    required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="age" class="form-label text-success formtit">Date of Birth</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <select class="form-select" id="state" name="state">
+                    <option value="1">Select State</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                    <option value="Daman and Diu">Daman and Diu</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Lakshadweep">Lakshadweep</option>
+                    <option value="Puducherry">Puducherry</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="state" class="form-label text-success formtit">Select State</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="city" placeholder="Enter your City" name="city" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="city" class="form-label text-success formtit">City</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="mobno" placeholder="Enter Mobile Number" name="mobno"
+                    required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="mobno" class="form-label text-success formtit">Mobile Number</label>
+            </div>
+
+            <div class="form-floating mb-3">
+
+                <input type="text" class="form-control" id="email" placeholder="Enter your Email" name="email" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="email" class="text-success formtit">Email Id</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="pwd" placeholder="set password" name="pswd" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="pwd" class="text-success formtit"> Set Password</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="cpwd" placeholder="Confirm Password" name="cpswd"
+                    required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="cpwd" class="text-success formtit">Confirm Password</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <select class="form-select" id="secq" name="secq">
+                    <option value="01">Select</option>
+                    <option value="1">What was your childhood nickname?</option>
+                    <option value="2">What is the name of your favorite childhood friend?</option>
+                    <option value="3">What is the country of your ultimate dream vacation?</option>
+                    <option value="4">What was your favorite place to visit as a child?</option>
+                    <option value="5">In what city or town was your first job?</option>
+                    <option value="6">What was the name of your first stuffed animal?</option>
+                    <option value="7">What was the name of your elementary / primary school?</option>
+                    <option value="8">What was your dream job as a child?</option>
+                    <option value="9">Who was your childhood hero?</option>
+                    <option value="10">What is your preferred musical genre?</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="secq" class="form-label text-success formtit">Security Question</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="seca" placeholder="Enter your City" name="seca" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="seca" class="form-label text-success formtit">Security Answer</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <select class="form-select" id="ltbd" name="ltbd">
+                    <option value="01">Select</option>
+                    <option value="1">Not Donated ever</option>
+                    <option value="2">less than a month ago</option>
+                    <option value="3">1 month ago</option>
+                    <option value="4">3 months ago</option>
+                    <option value="5">6 months ago</option>
+                    <option value="6">1 year ago</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+                <label for="ltbd" class="form-label text-success formtit">Last time Blood Donated</label>
+            </div><br>
+
+            <div class="form-check mb-3" align="center">
+                <input class="form-check-input ms-5" type="checkbox" id="myCheck" name="remember" required>
+                <label class="form-check-label me-5 pe-5" for="myCheck">I agree to the <a href="#" class="terms">terms
+                        and
+                        conditions</a></label>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Check this checkbox to continue.</div>
+            </div><br>
+            <button type="submit" class="btn btn-primary text-center">Submit</button><br><br>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
